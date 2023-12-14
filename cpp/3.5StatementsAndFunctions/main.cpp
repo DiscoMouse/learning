@@ -6,6 +6,12 @@ int addNumbers(int first_param, int second_param){
     return result;
 }
 
+int multiplyNumbers(int first_param, int second_param){
+    
+    int result = first_param * second_param;
+    return result;
+}
+
 int main(){
     int first_number {13};
     int second_number {7};
@@ -22,7 +28,9 @@ int main(){
     sum = addNumbers(30,54);
     std::cout << "Sum : " << sum << std::endl;
 
-    std::cout << "Sum : " << addNumbers(3,42);
+    std::cout << "Sum : " << addNumbers(3,42) << std::endl;
+
+    std::cout << "Multiply : " << multiplyNumbers(10,5);
 
     return 0;
 }
