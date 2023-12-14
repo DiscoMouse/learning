@@ -4,7 +4,7 @@
 #include <iostream>
 
 /*
-    This is a block comment that englobes multiple
+    This is a block comment that encloses multiple
     lines of text
 */
 
